@@ -15,7 +15,7 @@ function App() {
     <div className="App">
      
   <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+  <Navbar.Brand to="/">Portfolio</Navbar.Brand>
   <Navbar.Toggle aria-controls="navbarScroll" />
   <Navbar.Collapse id="navbarScroll">
     <Nav
@@ -32,12 +32,12 @@ function App() {
 </Navbar>
 <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/AboutMe" component={AboutMe} />
+        <Route path="/AboutMe" component={AboutMe} />
         <Route exact path="/MyProject" component={MyProjects} />
         <Route exact path="/ContactMe" component={ContactMe}/>
 </Switch>
 
-<MyProjects/>
+
 <Footer/>
     </div>
   );
