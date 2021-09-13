@@ -9,26 +9,34 @@ import AnywhereFitness from "../src/asserts/AnywhereFitness.jpg";
 const Home = () => {
     const projectDetails = [
         {   projectID:1,
-            projectName: "Merchant Marketplace",
+            projectName: "Anywhere Fitness",
             projectDescription: "",
-            projectImage: MerchantMarketPlace
+            projectImage: AnywhereFitness,
+            Github:"https://github.com/Nandhini-Madan/AnywhereFitness",
+            Demo:"https://anywherefitness12.netlify.app/"
         },
         {
             projectID:2,
             projectName: "Silent Auction",
             projectDescription: "",
-            projectImage: SilentAuction
+            projectImage: SilentAuction,
+            Github:"",
+            Demo:"https://anywherefitness12.netlify.app/"
         },
         {   projectID:3,
-            projectName: "Anywhere Fitness",
-            projectDescription: "gfgf",
-            projectImage: AnywhereFitness
+            projectName: "Merchant Marketplace",
+            projectDescription: "",
+            projectImage: MerchantMarketPlace,
+            Github:"",
+            Demo:"https://anywherefitness12.netlify.app/"
         },
         {
             projectID:4,
             projectName: "Potluck Planner",
             projectDescription: "",
-            projectImage: ""
+            projectImage: "",
+            Github:"https://github.com/Nandhini-Madan/Potluck2021BE",
+            Demo:"https://potluckfood2021.netlify.app"
         }
     ]
 
@@ -55,8 +63,8 @@ const Home = () => {
                                     {project.projectDescription}
                                 </Card.Text>
                                 <div className="link">
-                                <a href="">GitHub</a>
-                                <a href="">Demo</a>
+                                <a href={project.Github}>GitHub</a>
+                                <a href={project.Demo}>Demo</a>
                                 </div>
                             </Card.Body>
                         </Card>
