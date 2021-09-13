@@ -8,7 +8,7 @@ const Snow = () => {
 
                 <h1>Nandhini Devi Madan</h1>
                
-
+                <p> Web Developer</p>
                 <div className="snowflake">
                     ❅
                 </div>
