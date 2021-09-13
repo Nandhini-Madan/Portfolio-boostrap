@@ -33,7 +33,7 @@ const Home = () => {
         {
             projectID:4,
             projectName: "Potluck Planner",
-            projectDescription: "",
+            projectDescription: "A potluck is a kind of meal where each guest brings a dish prepared by him/her which is then shared by everyone. A potluck party is a fun way to have a get together without the host going into the trouble of having to make an elaborate full course meal. This kind of parties can be organized for a small group of friends or a big gathering.",
             projectImage: "",
             Github:"https://github.com/Nandhini-Madan/Potluck2021BE",
             Demo:"https://potluckfood2021.netlify.app"
