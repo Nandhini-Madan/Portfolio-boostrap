@@ -4,8 +4,8 @@ import MerchantMarketPlace from "../src/asserts/MerchantMarket.png";
 import Snow from "../src/Snow";
 import SilentAuction from "../src/asserts/silentAuction.jpg";
 import AnywhereFitness from "../src/asserts/AnywhereFitness.jpg";
-
-
+import Portfolio from "../src/asserts/Nandhini-FullStackDeveloper.pdf";
+import potluck from "../src/asserts/potluck.png";
 const Home = () => {
     const projectDetails = [
         {   projectID:1,
@@ -20,21 +20,21 @@ const Home = () => {
             projectName: "Silent Auction",
             projectDescription: "",
             projectImage: SilentAuction,
-            Github:"",
+            Github:"https://github.com/Nandhini-Madan/SilentAuction-1",
             Demo:"https://anywherefitness12.netlify.app/"
         },
         {   projectID:3,
             projectName: "Merchant Marketplace",
             projectDescription: "",
             projectImage: MerchantMarketPlace,
-            Github:"",
+            Github:"https://github.com/Nandhini-Madan/MerchantMarketPlace",
             Demo:"https://anywherefitness12.netlify.app/"
         },
         {
             projectID:4,
             projectName: "Potluck Planner",
-            projectDescription: "A potluck is a kind of meal where each guest brings a dish prepared by him/her which is then shared by everyone. A potluck party is a fun way to have a get together without the host going into the trouble of having to make an elaborate full course meal. This kind of parties can be organized for a small group of friends or a big gathering.",
-            projectImage: "",
+            projectDescription: "",
+            projectImage: potluck,
             Github:"https://github.com/Nandhini-Madan/Potluck2021BE",
             Demo:"https://potluckfood2021.netlify.app"
         }
@@ -172,6 +172,11 @@ const Home = () => {
             <p>I'm a full-stack developer passionate about building software users love and that solve big problems at scale. I have experience building reusable frontend components using React, managing complex application state using Redux, building backend services using Node.js and Express.js, and database management using PostgreSQL.</p>
             <p> My background in learning and remote collaboration gives me the resources to ask the right questions, get the right answers, and delivering on time. And now I can build full-stack web applications I'm a natural fit for a remote software development team.</p>
              <p>I am currently seeking full-stack or frontend development opportunities based in Seattle, WA or anywhere in the world if remote working is an option.</p>
+             <div className="link">
+                                <a href="https://github.com/Nandhini-Madan">GitHub</a>
+                                <a href="https://www.linkedin.com/in/nandhinimadan/">LinkedIn</a>
+                                </div>
+             <p>Download <a href={Portfolio} download>My resume</a></p>
             <br></br>
             <h2>Skills</h2>
             <br></br>

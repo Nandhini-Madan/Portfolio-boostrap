@@ -45,3 +45,9 @@
 body{
   background-color: #faa307 !important;
 }
+.blue{
+  color:blue
+}
+.navbar-light .navbar-nav .nav-link{
+  color:blue
+}

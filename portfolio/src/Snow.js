@@ -9,7 +9,7 @@ const Snow = () => {
                 <h1>Nandhini Devi Madan</h1>
                
                 <p> Web Developer</p>
-                <div className="snowflake">
+            {/*   <div className="snowflake">
                     ❅
                 </div>
                 <div className="snowflake">
@@ -39,6 +39,7 @@ const Snow = () => {
                 <div className="snowflake">
                     ❄
                 </div>
+                */} 
             </div>
         </>
 

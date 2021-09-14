@@ -1,10 +1,14 @@
 .form-control{
-    width:35%;
-    margin-left: 35%;
+    width:15rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
    
 }
+.message{
+  height: 10rem;
+}
 .ContactForm{
-    margin-top: 5%;
+    margin-top: 5rem;
     
 }
 
@@ -48,4 +52,8 @@
   .btn-5:hover:after{
     width:100%;
     transition:800ms ease all;
+  }
+  .Question{
+    margin-left: 1rem;
+    margin-right: 1rem;
   }

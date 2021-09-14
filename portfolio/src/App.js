@@ -22,7 +22,7 @@ function App() {
             className="mr-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
           >
-            <Link to="/" className="nav-link" aria-current="page">Home </Link>
+            <Link to="/" className="nav-link blue" aria-current="page">Home </Link>
             <Link to="/AboutMe" className="nav-link" aria-current="page">About Me</Link>
             <Link to="/Myproject" className="nav-link" aria-current="page">My Projects</Link>
             <Link to="/ContactMe" className="nav-link" aria-current="page">Contact Me</Link>

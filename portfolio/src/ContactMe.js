@@ -25,7 +25,7 @@ const ContactMe = () => {
         <h1>CONTACT ME</h1>
         <div>________XXX______</div>
         <br></br>
-        <h4>I"LL BE GLAD TO ANSWER YOUR QUESTIONS</h4>
+        <h4 className="Question"> I"LL BE GLAD TO ANSWER YOUR QUESTIONS</h4>
             <form name="submit-to-google-sheet" className="ContactForm">
                 <div className="form-group">
                     <label >Email address:</label>
@@ -36,8 +36,8 @@ const ContactMe = () => {
                     <input type="text" className="form-control" id="name" name="firstName" placeholder="Name"/>
                 </div>
                 <div class="form-group">
-                    <label htmlFor="name">Message:</label>
-                    <input type="text" className="form-control" id="message" name="Message" placeholder="Message" />
+                    <label htmlFor="name" className="messageLabel">Message:</label>
+                    <input type="text" className="form-control message" id="message" name="Message" placeholder="Message" />
                 </div>
                 <br></br>
                

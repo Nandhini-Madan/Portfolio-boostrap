@@ -49,3 +49,7 @@ margin-left: 5%;
 .bg-light{
   background-color: white!important;
 }
+a .nav-link{
+  margin-left:  1rem; 
+  color:blue;
+}
