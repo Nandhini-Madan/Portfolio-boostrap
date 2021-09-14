@@ -27,3 +27,7 @@
   .link a{
 margin-left: 5%;
   }
+
+  .navbar-collapse{
+    overflow-x: hidden;
+  }
