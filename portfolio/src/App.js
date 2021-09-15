@@ -15,7 +15,7 @@ function App() {
     <div className="App">
 
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand to="/">Portfolio</Navbar.Brand>
+        <Navbar.Brand to="/" className="brand">Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav

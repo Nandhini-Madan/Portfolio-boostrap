@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Card,Button } from "react-bootstrap";
+import { Row, Col, Card,Button,Badge } from "react-bootstrap";
 import MerchantMarketPlace from "../src/asserts/MerchantMarket.png";
 import Snow from "../src/Snow";
 import SilentAuction from "../src/asserts/silentAuction.jpg";
@@ -182,11 +182,12 @@ const Home = () => {
             <Row xs={12} md={12} className="g-4">
                 {skills.map((skill) => (
                     <Col key={skill.skillId}>
-                        <Button href={skill.link}>{skill.SkillName}</Button> 
                         
+                        <Badge className="badge" bg="primary">{skill.SkillName}</Badge>
                     </Col>
                 ))}
             </Row>
+            <br></br>
             <br></br>
             <h2>My Projects</h2>
             <br></br>

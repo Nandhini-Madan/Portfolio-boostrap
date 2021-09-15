@@ -6,7 +6,7 @@ const Snow = () => {
         <>
             <div className="snowflakes" aria-hidden="true">
                 <br></br>
-                <h1>Nandhini Devi Madan</h1>
+                <h1 className="title">Nandhini Devi Madan</h1>
                
                 <p> Web Developer</p>
             {/*   <div className="snowflake">

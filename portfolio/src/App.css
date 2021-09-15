@@ -51,3 +51,10 @@ body{
 .navbar-light .navbar-nav .nav-link{
   color:blue
 }
+.brand{
+  font-family:'Great Vibes','cursive';
+  font-size: 3rem;
+}
+.navbar-brand {
+  font-size: 3rem;
+}
