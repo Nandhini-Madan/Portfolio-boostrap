@@ -166,7 +166,6 @@ const Home = () => {
     return (
         <>
             <Snow />
-            
             <h2>AboutMe</h2>
             <br></br>
             <p>I'm a full-stack developer passionate about building software users love and that solve big problems at scale. I have experience building reusable frontend components using React, managing complex application state using Redux, building backend services using Node.js and Express.js, and database management using PostgreSQL.</p>

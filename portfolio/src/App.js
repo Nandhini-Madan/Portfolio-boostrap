@@ -16,10 +16,10 @@ function App() {
 
       <Navbar bg="light" expand="lg">
         <Navbar.Brand to="/">Portfolio</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav
-            className="mr-auto my-2 my-lg-0"
+            className="me-auto"
             style={{ maxHeight: '100px' }}
           >
             <Link to="/" className="nav-link blue" aria-current="page">Home </Link>

@@ -26,17 +26,17 @@ const ContactMe = () => {
         <div>________XXX______</div>
         <br></br>
         <h4 className="Question"> I"LL BE GLAD TO ANSWER YOUR QUESTIONS</h4>
-            <form name="submit-to-google-sheet" className="ContactForm">
-                <div className="form-group">
-                    <label >Email address:</label>
+            <form name="submit-to-google-sheet" className="py-3">
+                <div className="mb-4">
+                    <label className="form-label" >Email address:<span className="text-primary">*</span></label>
                     <input type="email" className="form-control" id="email" name="email" placeholder="Email "/>
                 </div>
-                <div class="form-group">
-                    <label >Name:</label>
+                <div class="mb-4">
+                    <label className="form-label" >Name:<span className="text-primary">*</span></label>
                     <input type="text" className="form-control" id="name" name="firstName" placeholder="Name"/>
                 </div>
-                <div class="form-group">
-                    <label htmlFor="name" className="messageLabel">Message:</label>
+                <div class="mb-4">
+                    <label htmlFor="name" className="form-label">Message:<span className="text-primary">*</span></label>
                     <input type="text" className="form-control message" id="message" name="Message" placeholder="Message" />
                 </div>
                 <br></br>
